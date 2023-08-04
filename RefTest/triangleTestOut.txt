@@ -1,0 +1,243 @@
+BEGIN TRIANGLE TEST
+
+TESTING THREE CONSTRUCTORS: Printing T1(default), T2(3arg) and T3(4arg)
+ALSO TESTING PRINT FUNCTION
+         sideLength        10
+          xLocation         0
+          yLocation         0
+   TrianglesCreated         6
+  TrianglesExisting         6
+        triangColour      255       0  0  0
+
+         sideLength        10
+          xLocation       240
+          yLocation       580
+   TrianglesCreated         6
+  TrianglesExisting         6
+        triangColour      255       0  0  0
+
+         sideLength       375
+          xLocation       150
+          yLocation       300
+   TrianglesCreated         6
+  TrianglesExisting         6
+        triangColour      255       255  0  0
+
+
+
+TESTING COPY CONSTRUCTOR
+triangle to copy
+         sideLength        10
+          xLocation         0
+          yLocation         0
+   TrianglesCreated         6
+  TrianglesExisting         6
+        triangColour      255       0  0  0
+copied triangle
+         sideLength        10
+          xLocation         0
+          yLocation         0
+   TrianglesCreated         7
+  TrianglesExisting         7
+        triangColour      255       0  0  0
+
+
+
+TESTING GETTERS
+
+Getting Width 10
+Getting xLocation 0
+Getting yLocation 0
+Getting trianglesCreated 7
+Getting trianglesExisting 7
+Getting blockColour255       0  0  0
+
+
+
+TESTING SETTERS: changing default values in T1 and T2
+         sideLength       120
+          xLocation       225
+          yLocation       520
+   TrianglesCreated         7
+  TrianglesExisting         7
+        triangColour      255       0  0  255
+
+         sideLength        50
+          xLocation       240
+          yLocation       580
+   TrianglesCreated         7
+  TrianglesExisting         7
+        triangColour      255       255  0  255
+
+
+
+TESTING DISPLAY OF TRIANGLES
+
+
+
+
+TESTING TRIANGLES OVERLAPPING EDGES OF PAGE
+AND TESTING TRIANGLES OUTSIDE THE PAGE
+TRIANGLE BOTH xLocation AND yLocation OFF THE PAGE: plotted Red
+x position = 610 and / or y position = 823 of Triangle object is off the page
+x position and y position have been reset to 0
+
+         sideLength       300
+          xLocation         0
+          yLocation         0
+   TrianglesCreated         8
+  TrianglesExisting         8
+        triangColour      255       255  0  0
+
+TRIANGLE, yLocation OFF THE PAGE: plotted Black
+x position = 100 and / or y position = -5 of Triangle object is off the page
+x position and y position have been reset to 0
+
+         sideLength       230
+          xLocation         0
+          yLocation         0
+   TrianglesCreated         9
+  TrianglesExisting         9
+        triangColour      255       0  0  0
+
+TRIANGLE, xLocation OFF THE PAGE: plotted Grey
+x position = -5 and / or y position = 100 of Triangle object is off the page
+x position and y position have been reset to 0
+
+         sideLength       190
+          xLocation         0
+          yLocation         0
+   TrianglesCreated        10
+  TrianglesExisting        10
+        triangColour      128       128  128  128
+
+TRIANGLE, xLocation ON PAGE, xLocation+width OFF THE PAGE: plotted Dark Blue
+
+         sideLength       200
+          xLocation       400
+          yLocation        50
+   TrianglesCreated        11
+  TrianglesExisting        11
+        triangColour      255       0  0  255
+
+TRIANGLE, yLocation ON PAGE, yLocation+height OFF THE PAGE: plotted Grey
+Triangle object partially off the page
+ylocation is 700
+ sideLength was 230 sideLength is 115
+
+         sideLength       115
+          xLocation       300
+          yLocation       700
+   TrianglesCreated        12
+  TrianglesExisting        12
+        triangColour      128       128  128  128
+
+TRIANGLE, xLocation ON PAGE, xLocation+width OFF THE PAGE
+TRIANGLE, yLocation ON PAGE, yLocation+height OFF THE PAGE
+TRIANGLE, yLocation+height off page after scaling for x: plotted Light Blue
+Triangle object partially off the page
+xlocation is 450
+ sideLength was 210 sideLength is 150
+Triangle object partially off the page
+ylocation is 680
+ sideLength was 150 sideLength is 138
+
+         sideLength       138
+          xLocation       450
+          yLocation       680
+   TrianglesCreated        13
+  TrianglesExisting        13
+        triangColour      255       255  0  255
+
+TRIANGLE, xLocation ON PAGE, xLocation+width OFF THE PAGE
+TRIANGLE, yLocation ON PAGE, yLocation+height OFF THE PAGE
+TRIANGLE, yLocation+height on page after scaling for x: plotted Light Blue
+Triangle object partially off the page
+xlocation is 300
+ sideLength was 400 sideLength is 300
+
+         sideLength       300
+          xLocation       300
+          yLocation       300
+   TrianglesCreated        14
+  TrianglesExisting        14
+        triangColour      170       100  200  255
+
+TRIANGLE: move T15 so xLocation is off page
+: plotted light blue
+x position = 0 or y position = 0 of Triangle object is off the page
+x position and y position have been reset to 0
+         sideLength       138
+          xLocation         0
+          yLocation         0
+   TrianglesCreated        14
+  TrianglesExisting        14
+        triangColour      255       255  0  255
+
+TRIANGLE: move T15, change sideLength so off page in y
+: plotted Grey
+Triangle object partially off the page
+sideLength reset to assure the whole triangle is on the page
+ylocation is 650 sideLength was 350
+ sideLength is 173
+
+         sideLength       173
+          xLocation       150
+          yLocation       650
+   TrianglesCreated        14
+  TrianglesExisting        14
+        triangColour      255       255  0  255
+
+
+
+TESTING TRIANGLE DIVIDE
+         sideLength       150
+          xLocation        10
+          yLocation       350
+   TrianglesCreated        21
+  TrianglesExisting        18
+        triangColour      128       128  128  128
+
+         sideLength       150
+          xLocation       160
+          yLocation       350
+   TrianglesCreated        21
+  TrianglesExisting        18
+        triangColour      128       128  128  128
+
+         sideLength       150
+          xLocation        85
+          yLocation       479
+   TrianglesCreated        21
+  TrianglesExisting        18
+        triangColour      128       128  128  128
+
+
+
+
+TESTING = OPERATOR
+printing T3
+         sideLength       375
+          xLocation       150
+          yLocation       300
+   TrianglesCreated        21
+  TrianglesExisting        15
+        triangColour      255       255  0  0
+printing T4 after T4=T3
+         sideLength       375
+          xLocation       150
+          yLocation       300
+   TrianglesCreated        21
+  TrianglesExisting        15
+        triangColour      255       255  0  0
+
+
+
+TESTING THE << OPERATOR
+T5
+         sideLength       230
+          xLocation       195
+          yLocation       540
+   TrianglesCreated        21
+  TrianglesExisting        15
+       triangColour       170       100  200  255

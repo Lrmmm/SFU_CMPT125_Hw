@@ -1,0 +1,837 @@
+BEGIN GASKET TEST
+
+TESTING CONSTRUCTORS: ON AND OFF PAGE
+
+Constructor 4 arguments, xLocation off page:: RED
+create g6
+x position of Gasket object is off the page
+x position and y position have been reset to 0
+         iterations         2
+          xLocation         0
+          yLocation         0
+          sideLength      480
+        gasketColour      255       255  0  0
+       lenSubTriList        9
+
+         sideLength       120
+          xLocation       180
+          yLocation       310
+   TrianglesCreated        22
+  TrianglesExisting         9
+        triangColour      255       255  0  0
+
+         sideLength       120
+          xLocation       240
+          yLocation       207
+   TrianglesCreated        22
+  TrianglesExisting         9
+        triangColour      255       255  0  0
+
+         sideLength       120
+          xLocation       120
+          yLocation       207
+   TrianglesCreated        22
+  TrianglesExisting         9
+        triangColour      255       255  0  0
+
+         sideLength       120
+          xLocation       300
+          yLocation       103
+   TrianglesCreated        22
+  TrianglesExisting         9
+        triangColour      255       255  0  0
+
+         sideLength       120
+          xLocation       360
+          yLocation         0
+   TrianglesCreated        22
+  TrianglesExisting         9
+        triangColour      255       255  0  0
+
+         sideLength       120
+          xLocation       240
+          yLocation         0
+   TrianglesCreated        22
+  TrianglesExisting         9
+        triangColour      255       255  0  0
+
+         sideLength       120
+          xLocation        60
+          yLocation       103
+   TrianglesCreated        22
+  TrianglesExisting         9
+        triangColour      255       255  0  0
+
+         sideLength       120
+          xLocation       120
+          yLocation         0
+   TrianglesCreated        22
+  TrianglesExisting         9
+        triangColour      255       255  0  0
+
+         sideLength       120
+          xLocation         0
+          yLocation         0
+   TrianglesCreated        22
+  TrianglesExisting         9
+        triangColour      255       255  0  0
+
+
+Constructor 4 arguments, yLocation off page:: LIGHT BLUE
+create g7
+y position of Gasket object is off the page
+x position and y position have been reset to 0
+         iterations         0
+          xLocation         0
+          yLocation         0
+          sideLength      321
+        gasketColour      170       100  200  255
+       lenSubTriList        1
+
+         sideLength       321
+          xLocation         0
+          yLocation         0
+   TrianglesCreated        24
+  TrianglesExisting        10
+        triangColour      170       100  200  255
+
+
+Contructor with 4 arguments x and y off page: YELLOW
+create G1
+x position of Gasket object is off the page
+x position and y position have been reset to 0
+         iterations         1
+          xLocation         0
+          yLocation         0
+          sideLength      270
+        gasketColour      255       255  255  0
+       lenSubTriList        3
+
+         sideLength       135
+          xLocation        67
+          yLocation       116
+   TrianglesCreated        31
+  TrianglesExisting        13
+        triangColour      255       255  255  0
+
+         sideLength       135
+          xLocation       135
+          yLocation         0
+   TrianglesCreated        31
+  TrianglesExisting        13
+        triangColour      255       255  255  0
+
+         sideLength       135
+          xLocation         0
+          yLocation         0
+   TrianglesCreated        31
+  TrianglesExisting        13
+        triangColour      255       255  255  0
+
+create G0
+
+Default constructor: BLACK
+         iterations         0
+          xLocation         0
+          yLocation         0
+          sideLength      100
+        gasketColour      255       0  0  0
+       lenSubTriList        1
+
+         sideLength       100
+          xLocation         0
+          yLocation         0
+   TrianglesCreated        33
+  TrianglesExisting        14
+        triangColour      255       0  0  0
+
+
+Constructor with 4 arguments on page: PURPLE
+create G2
+         iterations         0
+          xLocation        50
+          yLocation       480
+          sideLength      340
+        gasketColour      255       155  155  255
+       lenSubTriList        1
+
+         sideLength       340
+          xLocation        50
+          yLocation       480
+   TrianglesCreated        35
+  TrianglesExisting        15
+        triangColour      255       155  155  255
+
+
+Constructor 4 arguments, sidelength (x) beyond edge of page: GREY
+create G3
+scaling in x
+sideLength was 280 sideLength now is 250
+         iterations         1
+          xLocation       350
+          yLocation       330
+          sideLength      250
+        gasketColour      128       128  128  128
+       lenSubTriList        3
+
+         sideLength       125
+          xLocation       412
+          yLocation       438
+   TrianglesCreated        42
+  TrianglesExisting        18
+        triangColour      128       128  128  128
+
+         sideLength       125
+          xLocation       475
+          yLocation       330
+   TrianglesCreated        42
+  TrianglesExisting        18
+        triangColour      128       128  128  128
+
+         sideLength       125
+          xLocation       350
+          yLocation       330
+   TrianglesCreated        42
+  TrianglesExisting        18
+        triangColour      128       128  128  128
+
+
+Constructor 4 arguments, sideLength (y) beyond edge of page: DARK BLUE
+create g5
+scaling in y
+sideLength was 200 sideLength now is 115
+         iterations         1
+          xLocation        40
+          yLocation       700
+          sideLength      115
+        gasketColour      255       0  0  255
+       lenSubTriList        3
+
+         sideLength        57
+          xLocation        68
+          yLocation       749
+   TrianglesCreated        49
+  TrianglesExisting        21
+        triangColour      255       0  0  255
+
+         sideLength        57
+          xLocation        97
+          yLocation       700
+   TrianglesCreated        49
+  TrianglesExisting        21
+        triangColour      255       0  0  255
+
+         sideLength        57
+          xLocation        40
+          yLocation       700
+   TrianglesCreated        49
+  TrianglesExisting        21
+        triangColour      255       0  0  255
+
+
+Constructor 4 argument x and y beyond edge of page: X correction only: YELLOW
+create G8
+scaling in x
+sideLength was 300 sideLength now is 200
+         iterations         1
+          xLocation       400
+          yLocation       600
+          sideLength      200
+        gasketColour      255       255  255  0
+       lenSubTriList        3
+
+         sideLength       100
+          xLocation       450
+          yLocation       686
+   TrianglesCreated        56
+  TrianglesExisting        24
+        triangColour      255       255  255  0
+
+         sideLength       100
+          xLocation       500
+          yLocation       600
+   TrianglesCreated        56
+  TrianglesExisting        24
+        triangColour      255       255  255  0
+
+         sideLength       100
+          xLocation       400
+          yLocation       600
+   TrianglesCreated        56
+  TrianglesExisting        24
+        triangColour      255       255  255  0
+
+
+
+
+
+Constructor 4 argument x and y beyond edge of page: X correction only: GREY
+create G9
+scaling in x
+sideLength was 300 sideLength now is 200
+scaling in y
+sideLength was 200 sideLength now is 115
+         iterations         1
+          xLocation       400
+          yLocation       700
+          sideLength      115
+        gasketColour      128       128  128  128
+       lenSubTriList        3
+
+         sideLength        57
+          xLocation       428
+          yLocation       749
+   TrianglesCreated        63
+  TrianglesExisting        27
+        triangColour      128       128  128  128
+
+         sideLength        57
+          xLocation       457
+          yLocation       700
+   TrianglesCreated        63
+  TrianglesExisting        27
+        triangColour      128       128  128  128
+
+         sideLength        57
+          xLocation       400
+          yLocation       700
+   TrianglesCreated        63
+  TrianglesExisting        27
+        triangColour      128       128  128  128
+
+
+
+
+TESTING COPY CONSTRUCTOR
+gasket to copy
+         iterations         1
+          xLocation        40
+          yLocation       700
+          sideLength      115
+        gasketColour      255       0  0  255
+       lenSubTriList        3
+
+         sideLength        57
+          xLocation        68
+          yLocation       749
+   TrianglesCreated        63
+  TrianglesExisting        27
+        triangColour      255       0  0  255
+
+         sideLength        57
+          xLocation        97
+          yLocation       700
+   TrianglesCreated        63
+  TrianglesExisting        27
+        triangColour      255       0  0  255
+
+         sideLength        57
+          xLocation        40
+          yLocation       700
+   TrianglesCreated        63
+  TrianglesExisting        27
+        triangColour      255       0  0  255
+
+copied gasket
+         iterations         1
+          xLocation        40
+          yLocation       700
+          sideLength      115
+        gasketColour      255       0  0  255
+       lenSubTriList        3
+
+         sideLength        57
+          xLocation        68
+          yLocation       749
+   TrianglesCreated        66
+  TrianglesExisting        30
+        triangColour      255       0  0  255
+
+         sideLength        57
+          xLocation        97
+          yLocation       700
+   TrianglesCreated        66
+  TrianglesExisting        30
+        triangColour      255       0  0  255
+
+         sideLength        57
+          xLocation        40
+          yLocation       700
+   TrianglesCreated        66
+  TrianglesExisting        30
+        triangColour      255       0  0  255
+
+
+
+
+
+changing side length of G0 from 270 to 150:  :displayed in YELLOW
+         iterations         1
+          xLocation         0
+          yLocation         0
+          sideLength      150
+        gasketColour      255       255  255  0
+       lenSubTriList        3
+
+         sideLength        75
+          xLocation        37
+          yLocation        64
+   TrianglesCreated        70
+  TrianglesExisting        30
+        triangColour      255       255  255  0
+
+         sideLength        75
+          xLocation        75
+          yLocation         0
+   TrianglesCreated        70
+  TrianglesExisting        30
+        triangColour      255       255  255  0
+
+         sideLength        75
+          xLocation         0
+          yLocation         0
+   TrianglesCreated        70
+  TrianglesExisting        30
+        triangColour      255       255  255  0
+
+
+changing xlocation and ylocation of G1
+xlocation to 150 ylocation to 200:
+displayed in BLACK
+         iterations         0
+          xLocation       100
+          yLocation       200
+          sideLength      100
+        gasketColour      255       0  0  0
+       lenSubTriList        1
+
+         sideLength       100
+          xLocation       100
+          yLocation       200
+   TrianglesCreated        72
+  TrianglesExisting        30
+        triangColour      255       0  0  0
+
+moving y location of G7 so gasket is partially off the page
+yLocation set to 675: displayed in LIGHT BLUE
+         iterations         0
+          xLocation         0
+          yLocation       675
+          sideLength      144
+        gasketColour      170       100  200  255
+       lenSubTriList        1
+
+         sideLength       144
+          xLocation         0
+          yLocation       675
+   TrianglesCreated        73
+  TrianglesExisting        30
+        triangColour      170       100  200  255
+
+moving y location of G7 and increasing sideLength
+yLocation set to 575 sideLength to 300: displayed in LIGHT BLUE
+         iterations         0
+          xLocation         0
+          yLocation       575
+          sideLength      259
+        gasketColour      170       100  200  255
+       lenSubTriList        1
+
+         sideLength       259
+          xLocation         0
+          yLocation       575
+   TrianglesCreated        75
+  TrianglesExisting        30
+        triangColour      170       100  200  255
+
+TESTING MUTATORS
+changing G2 colour from light blue: displayed in RED
+         iterations         0
+          xLocation        50
+          yLocation       480
+          sideLength      340
+        gasketColour      255       255  0  0
+       lenSubTriList        1
+
+         sideLength       340
+          xLocation        50
+          yLocation       480
+   TrianglesCreated        75
+  TrianglesExisting        30
+        triangColour      255       255  0  0
+
+changing G2 number of iterations from 1 to 3: displayed in YELLOW
+         iterations         3
+          xLocation        50
+          yLocation       480
+          sideLength      340
+        gasketColour      255       255  255  0
+       lenSubTriList       27
+
+         sideLength        42
+          xLocation       198
+          yLocation       736
+   TrianglesCreated       184
+  TrianglesExisting        56
+        triangColour      255       255  255  0
+
+         sideLength        42
+          xLocation       219
+          yLocation       700
+   TrianglesCreated       184
+  TrianglesExisting        56
+        triangColour      255       255  255  0
+
+         sideLength        42
+          xLocation       177
+          yLocation       700
+   TrianglesCreated       184
+  TrianglesExisting        56
+        triangColour      255       255  255  0
+
+         sideLength        42
+          xLocation       241
+          yLocation       663
+   TrianglesCreated       184
+  TrianglesExisting        56
+        triangColour      255       255  255  0
+
+         sideLength        42
+          xLocation       262
+          yLocation       627
+   TrianglesCreated       184
+  TrianglesExisting        56
+        triangColour      255       255  255  0
+
+         sideLength        42
+          xLocation       220
+          yLocation       627
+   TrianglesCreated       184
+  TrianglesExisting        56
+        triangColour      255       255  255  0
+
+         sideLength        42
+          xLocation       156
+          yLocation       663
+   TrianglesCreated       184
+  TrianglesExisting        56
+        triangColour      255       255  255  0
+
+         sideLength        42
+          xLocation       177
+          yLocation       627
+   TrianglesCreated       184
+  TrianglesExisting        56
+        triangColour      255       255  255  0
+
+         sideLength        42
+          xLocation       135
+          yLocation       627
+   TrianglesCreated       184
+  TrianglesExisting        56
+        triangColour      255       255  255  0
+
+         sideLength        42
+          xLocation       283
+          yLocation       589
+   TrianglesCreated       184
+  TrianglesExisting        56
+        triangColour      255       255  255  0
+
+         sideLength        42
+          xLocation       304
+          yLocation       553
+   TrianglesCreated       184
+  TrianglesExisting        56
+        triangColour      255       255  255  0
+
+         sideLength        42
+          xLocation       262
+          yLocation       553
+   TrianglesCreated       184
+  TrianglesExisting        56
+        triangColour      255       255  255  0
+
+         sideLength        42
+          xLocation       326
+          yLocation       516
+   TrianglesCreated       184
+  TrianglesExisting        56
+        triangColour      255       255  255  0
+
+         sideLength        42
+          xLocation       347
+          yLocation       480
+   TrianglesCreated       184
+  TrianglesExisting        56
+        triangColour      255       255  255  0
+
+         sideLength        42
+          xLocation       305
+          yLocation       480
+   TrianglesCreated       184
+  TrianglesExisting        56
+        triangColour      255       255  255  0
+
+         sideLength        42
+          xLocation       241
+          yLocation       516
+   TrianglesCreated       184
+  TrianglesExisting        56
+        triangColour      255       255  255  0
+
+         sideLength        42
+          xLocation       262
+          yLocation       480
+   TrianglesCreated       184
+  TrianglesExisting        56
+        triangColour      255       255  255  0
+
+         sideLength        42
+          xLocation       220
+          yLocation       480
+   TrianglesCreated       184
+  TrianglesExisting        56
+        triangColour      255       255  255  0
+
+         sideLength        42
+          xLocation       113
+          yLocation       589
+   TrianglesCreated       184
+  TrianglesExisting        56
+        triangColour      255       255  255  0
+
+         sideLength        42
+          xLocation       134
+          yLocation       553
+   TrianglesCreated       184
+  TrianglesExisting        56
+        triangColour      255       255  255  0
+
+         sideLength        42
+          xLocation        92
+          yLocation       553
+   TrianglesCreated       184
+  TrianglesExisting        56
+        triangColour      255       255  255  0
+
+         sideLength        42
+          xLocation       156
+          yLocation       516
+   TrianglesCreated       184
+  TrianglesExisting        56
+        triangColour      255       255  255  0
+
+         sideLength        42
+          xLocation       177
+          yLocation       480
+   TrianglesCreated       184
+  TrianglesExisting        56
+        triangColour      255       255  255  0
+
+         sideLength        42
+          xLocation       135
+          yLocation       480
+   TrianglesCreated       184
+  TrianglesExisting        56
+        triangColour      255       255  255  0
+
+         sideLength        42
+          xLocation        71
+          yLocation       516
+   TrianglesCreated       184
+  TrianglesExisting        56
+        triangColour      255       255  255  0
+
+         sideLength        42
+          xLocation        92
+          yLocation       480
+   TrianglesCreated       184
+  TrianglesExisting        56
+        triangColour      255       255  255  0
+
+         sideLength        42
+          xLocation        50
+          yLocation       480
+   TrianglesCreated       184
+  TrianglesExisting        56
+        triangColour      255       255  255  0
+
+moving xLocation of G6 so gasket is partially off the page
+xLocaton set to 300: displayed in RED
+         iterations         2
+          xLocation       300
+          yLocation         0
+          sideLength      300
+        gasketColour      255       255  0  0
+       lenSubTriList        9
+
+         sideLength        75
+          xLocation       412
+          yLocation       193
+   TrianglesCreated       203
+  TrianglesExisting        56
+        triangColour      255       255  0  0
+
+         sideLength        75
+          xLocation       450
+          yLocation       129
+   TrianglesCreated       203
+  TrianglesExisting        56
+        triangColour      255       255  0  0
+
+         sideLength        75
+          xLocation       375
+          yLocation       129
+   TrianglesCreated       203
+  TrianglesExisting        56
+        triangColour      255       255  0  0
+
+         sideLength        75
+          xLocation       487
+          yLocation        64
+   TrianglesCreated       203
+  TrianglesExisting        56
+        triangColour      255       255  0  0
+
+         sideLength        75
+          xLocation       525
+          yLocation         0
+   TrianglesCreated       203
+  TrianglesExisting        56
+        triangColour      255       255  0  0
+
+         sideLength        75
+          xLocation       450
+          yLocation         0
+   TrianglesCreated       203
+  TrianglesExisting        56
+        triangColour      255       255  0  0
+
+         sideLength        75
+          xLocation       337
+          yLocation        64
+   TrianglesCreated       203
+  TrianglesExisting        56
+        triangColour      255       255  0  0
+
+         sideLength        75
+          xLocation       375
+          yLocation         0
+   TrianglesCreated       203
+  TrianglesExisting        56
+        triangColour      255       255  0  0
+
+         sideLength        75
+          xLocation       300
+          yLocation         0
+   TrianglesCreated       203
+  TrianglesExisting        56
+        triangColour      255       255  0  0
+
+moving yLocation of G6 to 250, changing colour:
+ displayed in DARK BLUE
+         iterations         2
+          xLocation       300
+          yLocation       250
+          sideLength      300
+        gasketColour      255       0  0  255
+       lenSubTriList        9
+
+         sideLength        75
+          xLocation       412
+          yLocation       443
+   TrianglesCreated       222
+  TrianglesExisting        56
+        triangColour      255       0  0  255
+
+         sideLength        75
+          xLocation       450
+          yLocation       379
+   TrianglesCreated       222
+  TrianglesExisting        56
+        triangColour      255       0  0  255
+
+         sideLength        75
+          xLocation       375
+          yLocation       379
+   TrianglesCreated       222
+  TrianglesExisting        56
+        triangColour      255       0  0  255
+
+         sideLength        75
+          xLocation       487
+          yLocation       314
+   TrianglesCreated       222
+  TrianglesExisting        56
+        triangColour      255       0  0  255
+
+         sideLength        75
+          xLocation       525
+          yLocation       250
+   TrianglesCreated       222
+  TrianglesExisting        56
+        triangColour      255       0  0  255
+
+         sideLength        75
+          xLocation       450
+          yLocation       250
+   TrianglesCreated       222
+  TrianglesExisting        56
+        triangColour      255       0  0  255
+
+         sideLength        75
+          xLocation       337
+          yLocation       314
+   TrianglesCreated       222
+  TrianglesExisting        56
+        triangColour      255       0  0  255
+
+         sideLength        75
+          xLocation       375
+          yLocation       250
+   TrianglesCreated       222
+  TrianglesExisting        56
+        triangColour      255       0  0  255
+
+         sideLength        75
+          xLocation       300
+          yLocation       250
+   TrianglesCreated       222
+  TrianglesExisting        56
+        triangColour      255       0  0  255
+
+moving yLocation of G6 to 375, changing iterations to 0:
+ displayed in DARK BLUE
+         iterations         0
+          xLocation       300
+          yLocation       375
+          sideLength      300
+        gasketColour      255       0  0  255
+       lenSubTriList        1
+
+         sideLength       300
+          xLocation       300
+          yLocation       375
+   TrianglesCreated       243
+  TrianglesExisting        48
+        triangColour      255       0  0  255
+
+moving yLocation of G6 to 675, xLocation to 475:
+ displayed in DARK BLUE
+         iterations         0
+          xLocation       375
+          yLocation       675
+          sideLength      144
+        gasketColour      255       0  0  255
+       lenSubTriList        1
+
+         sideLength       144
+          xLocation       375
+          yLocation       675
+   TrianglesCreated       245
+  TrianglesExisting        48
+        triangColour      255       0  0  255
+
+Producing on page gaskets for 2 to 4 iterations
+
